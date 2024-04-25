@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Альфа версия Кинопоиска</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Яндекс Кинопоиск</h1>
+  
+  <form id="movie-form">
+    <input type="text" id="title" placeholder="Название фильма" required>
+    <input type="text" id="director" placeholder="Режиссер" required>
+    <input type="number" id="year" placeholder="Год выпуска" required>
+    <button type="submit">Добавить фильм</button>
+  </form>
+  
+  <div id="movies-container"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
