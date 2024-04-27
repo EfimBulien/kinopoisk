@@ -84,7 +84,7 @@ function editMovie(index) {
   const newDirector = prompt('Введите нового режиссера фильма:', movie.director);
   const newYear = parseInt(prompt('Введите новый год выпуска фильма:', movie.year));
 
-  if (!validateMovie(title, director, year)) return;
+  if (!validateMovie(newTitle, newDirector, newYear)) return;
 
   movies[index].title = newTitle;
   movies[index].director = newDirector;
