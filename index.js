@@ -17,7 +17,7 @@ function validateMovie(title, director, year) {
     return false;
   }
 
-  if (director == title) {
+  if (director === title) {
     alert('Название фильма и имя режиссера не могут совпадать.')
     return false;
   }
